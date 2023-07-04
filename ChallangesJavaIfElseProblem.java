@@ -1,4 +1,4 @@
-/*
+/* for harckerrank - https://www.hackerrank.com/challenges/java-if-else/problem
 Given an integer n, perform the following conditional actions:
 If n is odd, print Weird
 If n is even and in the inclusive range of 2 to 5, print Not Weird
