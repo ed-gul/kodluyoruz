@@ -1,0 +1,20 @@
+package Giris;
+
+import java.util.Scanner;
+
+public class GirilendenKucukKuvvetBulma {
+    public static void main(String[] args) {
+        int a;
+        Scanner inp = new Scanner(System.in);
+        System.out.print("Sınır değeri giriniz: ");
+        a = inp.nextInt();
+
+        for (int i = 1; i <= a; i *= 4) {
+            System.out.print(a + " Sayısına kadar olan 4'ün kuvvetleri: ");
+            System.out.println(i);
+        }
+        for (int i = 1; i <= a; i *= 5) {
+            System.out.println(a + " Sayısına kadar olan 5'in kuvvetleri: " + i);
+        }
+    }
+}
